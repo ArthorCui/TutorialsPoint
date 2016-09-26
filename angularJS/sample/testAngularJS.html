@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AngularJS First Application</title>
+	<script src="../script/angular.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<h1>Sample Application</h1>
+	<div ng-app="" ng-init="countries=[{locale:'en-US',name:'United States'},{locale:'en-GB',name:'United Kindom'},{locale:'en-FR',name:'France'}]">
+		<p>Enter your Name: <input type="text" ng-model="name"></p>
+		<p>Hello <span ng-bind="name"></span>!</p>
+		<p>List of Countries with locale:</p>
+		<ul>
+			<li ng-repeat="country in countries">
+				{{ 'Country: ' + country.name + ', Locale: ' + country.locale }}
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

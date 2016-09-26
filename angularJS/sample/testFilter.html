@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular JS Controller</title>
+	<script src="../script/angular.min.js" type="text/javascript"></script>
+</head>
+<body ng-app="mytest" >
+	<h2>AngularJS Sample Application</h2>
+	<div ng-controller="studentController">
+		Enter first name: <input type="text" ng-model="student.firstName"><br>
+		Enter last name: <input type="text" ng-model="student.lastName"><br>
+		Enter fees: <input type="text" ng-model="student.fees"><br>
+		Name in Upper Case: {{student.fullName() | uppercase}}<br>
+		Name in Lower Case: {{student.fullName() | lowercase}}<br>
+		Fees: {{student.fees | currency}}<br>
+		Enter subject: <input type="text" ng-model="subjectName"><br>
+		Subject:
+		<ul>
+			<li ng-repeat="subject in student.subjects | filter: subjectName | orderBy: 'marks'">
+				{{ subject.name + ', marks: ' + subject.marks }}
+			</li>
+		</ul>
+	</div>
+	<script>
+		angular.module("mytest", [])
+		.controller("studentController", function ($scope){
+			$scope.student = {
+				firstName: "Roger",
+				lastName: "Cui",
+				fees: 500,
+				subjects:[
+					{name: 'Physics', marks: 70},
+					{name: 'Chemistry', marks: 80},
+					{name: 'Math', marks: 65},
+					{name: 'English', marks: 90}
+				],
+				fullName: function(){
+					var studentObj;
+					studentObj = $scope.student;
+					return studentObj.firstName + " " + studentObj.lastName;
+				}
+			};
+		});
+	</script>
+</body>
+</html>
