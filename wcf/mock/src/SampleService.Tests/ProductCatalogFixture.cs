@@ -53,7 +53,10 @@ namespace SampleService.Tests
 					new Product { Id = "2", Category = "bar", Name = "bar2", UnitPrice = 2 }
 				}));
 
-			Mock<IWebOperationContext> mockContext = new Mock<IWebOperationContext> { DefaultValue = DefaultValue.Mock };
+			Mock<IWebOperationContext> mockContext = new Mock<IWebOperationContext>
+            {
+                DefaultValue = DefaultValue.Mock
+            };
 			IEnumerable<SyndicationItem> items;
 			using (new MockedWebOperationContext(mockContext.Object))
 			{
