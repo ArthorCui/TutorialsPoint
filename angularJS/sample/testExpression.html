@@ -6,13 +6,16 @@
 </head>
 <body>
 	<h2>AngularJS Sample Application</h2>
-	<div ng-app="" ng-controller="studentController">
+	<div ng-app="testapp" ng-controller="studentController">
 		Enter first name: <input type="text" ng-model="student.firstName"><br>
 		Enter last name: <input type="text" ng-model="student.lastName"><br>
-		You are entering: {{student.fullName()}}
+		You are entering: {{ student.fullName() }}
 	</div>
 	<script>
-		function studentController($scope){
+		angular.module("testapp", [])
+			.controller("studentController", studentController);
+
+		function studentController($scope) {
 			$scope.student = {
 				firstName: "Roger",
 				lastName: "Cui",
