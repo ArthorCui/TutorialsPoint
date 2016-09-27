@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular JS AJAX</title>
+	<script src="../script/angular.min.js" type="text/javascript"></script>
+	<style src="../css/sample.css" type="text/css"></style>
+</head>
+<body>
+	<h2>AngularJS Sample Application</h2>
+	<div ng-app="testapp" ng-controller="studentController">
+		<table>
+			 <tr>
+				 <th>Name</th>
+				 <th>Roll No</th>
+				 <th>Percentage</th>
+			 </tr>
+			 <tr ng-repeat="student in students">
+				 <td>{{ student.Name }}</td>
+				 <td>{{ student.RollNo }}</td>
+				 <td>{{ student.Percentage }}</td>
+			 </tr>
+		</table>
+	</div>
+	<script type="text/javascript">
+		angular.module("testapp", [])
+			.controller("studentController", studentController);
+
+		function studentController($scope, $http) {
+			var url = "../content/data.txt";
+			$http.get(url).success(function(response){
+				$scope.students = response;
+			});
+		}
+	</script>
+</body>
+</html>

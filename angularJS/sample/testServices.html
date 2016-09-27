@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular JS Views</title>
+	<script src="../script/angular.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<h2>AngularJS Sample Application</h2>
+	<div ng-app="mainApp" ng-controller="CalcController">
+		<p>Enter a number: <input type="number" ng-model="number" />
+		<button ng-click="square()">X<sup>2</sup></button>
+		<p>Result: {{ result }}</p>
+	</div>
+	<script type="text/javascript">
+		var mainApp = angular.module("mainApp", []);
+
+		mainApp.factory('MathService', function() {
+			var factory = {};
+			factory.multiply = function(a, b) {
+				return a * b;
+			}
+			return factory;
+		});
+
+		mainApp.service('CalcService', function(MathService) {
+			this.square = function(a) {
+				return MathService.multiply(a, a);
+			}
+		});
+
+		mainApp.controller('CalcController', function($scope, CalcService) {
+			$scope.square = function () {
+				// body...
+				$scope.result = CalcService.square($scope.number);
+			}
+		});
+	</script>
+</body>
+</html>
