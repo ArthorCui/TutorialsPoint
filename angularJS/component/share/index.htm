@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="APP">
+<head>
+	<meta charset="UTF-8">
+	<title>angular-social example</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body ng-controller="ExampleController">
+    <ul ng-social-buttons
+             data-url="'http://www.tutorialspoint.com/'"
+             data-title="current_title"
+             data-description="'{{ current_description }}'"
+             data-image="'http://s3.mistinfo.com/32/d8/32d8eab76f4c242f665bda66b5edc6c5.jpg'">
+            <li class="ng-social-facebook">Facebook</li>
+            <li class="ng-social-google-plus">Google+</li>
+            <li class="ng-social-twitter">Twitter</li>
+            <li class="ng-social-pinterest">Pinterest</li>
+    
+        </ul>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+	<script src="social.js"></script>
+	<script>
+	angular.module("APP",["ngSocial"]).
+	controller("ExampleController",['$scope',function($scope){
+		 $scope.current_title = 'www.tutorialspoint.com/';
+         $scope.current_description = 'www.tutorialspoint.com/';
+	}])
+	</script>
+</body>
+</html>

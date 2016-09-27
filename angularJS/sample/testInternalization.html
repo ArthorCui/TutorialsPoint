@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular JS Forms</title>
+	<script src="../script/angular.min.js" type="text/javascript"></script>
+	<script src="../script/angular-locale_da-dk.js" type="text/javascript"></script>
+</head>
+<body>
+	<h2>AngularJs Sample Application</h2>
+	<div ng-app="mainApp" ng-controller="StudentController">
+		{{ fees | currency }} <br>
+		{{ admissiondate | date }} <br>
+		{{ rollno | number }} <br>
+	</div>
+
+	<script type="text/javascript">
+		var mainApp = angular.module("mainApp", []);
+
+		mainApp.controller('StudentController', function($scope) {
+			$scope.fees = 100;
+			$scope.admissiondate = new Date();
+			$scope.rollno = 123.45;
+		});
+	</script>
+</body>
+</html>
