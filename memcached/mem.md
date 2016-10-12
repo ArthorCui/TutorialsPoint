@@ -1,4 +1,4 @@
-####Installing
+##Installing
 
 For example in ubuntu
 ```
@@ -35,8 +35,8 @@ This command is explained below:
 
 ####Statistics Commands
 
-* [Stats](/mem-stats.md)
-* [Stats Items](mem-stats-items.md)
-* [Stats Slabs](mem-stats-slabs.md)
-* [Stats sizes](mem-stats-sizes.md)
-* [Clear Data](mem-clear-data.md)
+* [Stats](mem-stats.md)
+* [Stats Items](mem-stats.md#Items)
+* [Stats Slabs](mem-stats.md#Slabs)
+* [Stats sizes](mem-stats.md#Sizes)
+* [Clear Data](mem-stats.md#Clear)
