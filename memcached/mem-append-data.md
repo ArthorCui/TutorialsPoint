@@ -1,9 +1,9 @@
 ##Syntax
-Memcached set command is used to set a value to key; if the key does not exist, a new key is created and value is assigned to that key.
+Memcached append command is used to add data in an existing key. This data is added at the end of the previous value.
 
-The basic syntax of Memcached set command is as shown below
+The basic syntax of Memcached append command is as shown below
 ```
-set key flags exptime bytes [noreply] 
+append key flags exptime bytes [noreply]
 value
 ```
 
@@ -23,13 +23,18 @@ The keywords in the syntax are as described below −
 
 ##Example
 ```
-set tutorialspoint 0 900 9
+set tutorials 0 900 9
 memcached
 STORED
-
-get tutorialspoint
-VALUE tutorialspoint 0 9
+get tutorials
+VALUE tutorials 0 14
 memcached
-
+END
+append tutorials 0 900 5
+redis
+STORED
+get tutorials
+VALUE tutorials 0 14
+memcachedredis
 END
 ```
