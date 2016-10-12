@@ -20,7 +20,7 @@ This command is explained below:
 
 ####Storage Commands
 
-* [Set Data](/mem-set-data.md)
+* [Set Data](../mem-set-data.md)
 * [Add Data](/mem-add-data.md)
 * [Replace Data](/mem-replace-data.md)
 * [Append Data](/mem-append-data.md)
