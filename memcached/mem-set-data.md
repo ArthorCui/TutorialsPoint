@@ -1,4 +1,4 @@
-####Syntax
+##Syntax
 The basic syntax of Memcached set command is as shown below
 ```
 set key flags exptime bytes [noreply] 
@@ -19,7 +19,7 @@ The keywords in the syntax are as described below −
 
 * value - It is the data that needs to be stored. The data needs to be given on the new line after executing the command with the above options.
 
-####Example
+##Example
 ```
 set tutorialspoint 0 900 9
 memcached

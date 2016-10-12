@@ -20,23 +20,23 @@ This command is explained below:
 
 ####Storage Commands
 
-* [Set Data](../mem-set-data.md)
-* [Add Data](/mem-add-data.md)
-* [Replace Data](/mem-replace-data.md)
-* [Append Data](/mem-append-data.md)
-* [Prepend Data](/mem-prepend-data.md)
+* [Set Data](mem-set-data.md)
+* [Add Data](mem-add-data.md)
+* [Replace Data](mem-replace-data.md)
+* [Append Data](mem-append-data.md)
+* [Prepend Data](mem-prepend-data.md)
 
 ####Retrieval Commands
 
-* [Get Data](/mem-get-data.md)
-* [Get CAS Data](/mem-get-cas-data.md)
-* [Delete Key](/mem-delete-key.md)
-* [Incr/Decr Key](/mem-incr-desr-key.md)
+* [Get Data](mem-get-data.md)
+* [Get CAS Data](mem-get-cas-data.md)
+* [Delete Key](mem-delete-key.md)
+* [Incr/Decr Key](mem-incr-desr-key.md)
 
 ####Statistics Commands
 
 * [Stats](/mem-stats.md)
-* [Stats Items](/mem-stats-items.md)
-* [Stats Slabs](/mem-stats-slabs.md)
-* [Stats sizes](/mem-stats-sizes.md)
-* [Clear Data](/mem-clear-data.md)
+* [Stats Items](mem-stats-items.md)
+* [Stats Slabs](mem-stats-slabs.md)
+* [Stats sizes](mem-stats-sizes.md)
+* [Clear Data](mem-clear-data.md)
