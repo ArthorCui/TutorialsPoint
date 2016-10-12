@@ -10,7 +10,7 @@ directive('lastfmArtists', function($http) {
             })
         },
         template: 	'<li ng-repeat="artist in artists.topartists.artist">' +
-					'<a href="{{artist.url}}"" style="background-image: url({{artist.image[2][\'#text\']}})"><span>{{artist.name}}<br />' +
+					'<a href="{{artist.url}}"" style="background-image: url({{artist.image[2][\'#text\']}})">s<pan>{{artist.name}}<br />' +
 					'{{artist.playcount}} plays</span>' + 
 					'</a>' +
 					'</li>'
@@ -36,7 +36,7 @@ directive('lastfmAlbums', function($http) {
     return ret;
 }).
 directive('lastfmTracks', function($http) {
-    var ret = {
+    var ret = { 
         restrict: 'A',
         link: function(scope, elm, attrs) {
             var limit  = attrs.limit || '12';

@@ -40,7 +40,7 @@ And below is some new my knowledge skill list:
 * ~~SqlServer~~
 * ~~Oracle~~
 * ~~Redis~~
-* ~~Memcached
+* ~~Memcached~~
 * **_PostgreSql_**
 * **Spark**
 * **Hadoop**
