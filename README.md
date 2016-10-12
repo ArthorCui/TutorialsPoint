@@ -39,8 +39,8 @@ And below is some new my knowledge skill list:
 * ~~MySql~~
 * ~~SqlServer~~
 * ~~Oracle~~
-* ~~Redis~~
-* ~~Memcached~~
+* ~~[Redis](redis/readme.md)~~
+* ~~[Memcached](memcached/readme.md)~~
 * **_PostgreSql_**
 * **Spark**
 * **Hadoop**

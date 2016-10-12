@@ -22,8 +22,8 @@ Redis has three main peculiarities that set it apart from much of its competitio
 * [Environment](#Environment)
 * [Configuration](#Configuration)
 * [Data Types](#DataTypes)
-* [Basic Commands](#BasicCommands)
-* [Advanced Commands](#AdvancedCommands)
+* [Basic Commands](#Basic-Commands)
+* [Advanced Commands](#Advanced-Commands)
 
 ##Environment
 Sample use Ubuntu...
@@ -198,6 +198,26 @@ redis 127.0.0.1:6379> ZRANGEBYSCORE tutoriallist 0 1000
 3) "rabitmq"
 ```
 
-##BasicCommands
+##Basic-Commands
+* [Keys](keys.md)
+* [Strings](strings.md)
+* [Hashes](hashes.md)
+* [Lists](lists.md)
+* [Sets](sets.md)
+* [Sorted Sets](sorted-sets.md)
+* [HyperLogLog](hyperlog.md)
+* [Pub/Sub](ps.md)
+* [Transactions](transactions.md)
+* [Scripting](scripting.md)
+* [Connection]
+* [Server]
 
-##AdvancedCommands
+##Advanced-Commands
+* [Backup]
+* [Security]
+* [Benchmarks]
+* [Client Connection]
+* [Pipelining]
+* [Partitioning]
+* [jredis]
+* [phpredis]
