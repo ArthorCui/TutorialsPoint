@@ -209,8 +209,8 @@ redis 127.0.0.1:6379> ZRANGEBYSCORE tutoriallist 0 1000
 * [Pub/Sub](ps.md)
 * [Transactions](transactions.md)
 * [Scripting](scripting.md)
-* [Connection]
-* [Server]
+* [Connection](connection.md)
+* [Server](server.md)
 
 ##Advanced-Commands
 * [Backup]
