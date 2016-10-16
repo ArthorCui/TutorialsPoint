@@ -27,13 +27,13 @@ And below is some new my knowledge skill list:
 * **_NHibernate_**
 
 ######fronted and script related
-* **_AngularJS_**
-* **Hexo**
-* **_Bootstrap_**
+* **_[AngularJS](angularJS)_**
+* **[Hexo](hexo)**
+* **_[Bootstrap](bootstrap)_**
 * **Go**
 * **Lua**
-* **React**
-* **_TS_**
+* **[React](react)**
+* **_[TS](typescript)_**
 
 ######database & big data related
 * ~~MySql~~
