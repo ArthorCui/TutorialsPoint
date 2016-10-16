@@ -28,12 +28,19 @@ And below is some new my knowledge skill list:
 
 ######fronted and script related
 * **_[AngularJS](angularJS)_**
+* **_[TS](typescript)_**
+* **_[VueJS](VueJS)_**
+* **[ReactJS](reactJS)**
+
+######html and css related
 * **[Hexo](hexo)**
 * **_[Bootstrap](bootstrap)_**
+
+######bash and shell command
+* ~~Shell~~
 * **Go**
 * **Lua**
-* **[React](react)**
-* **_[TS](typescript)_**
+* **Perl**
 
 ######database & big data related
 * ~~MySql~~
@@ -57,4 +64,3 @@ And below is some new my knowledge skill list:
 * ~~[HeadFirstHtmlCss](https://github.com/itabas016/HeadFirstHtml-Css)~~
 * ~~[HeadFirstAjax](https://github.com/itabas016/HeadFirstAjax)~~
 * **_[HeadFirstJavaScript](https://github.com/itabas016/HeadFirstJavaScript)_**
-<em>10/12/2016</em>
