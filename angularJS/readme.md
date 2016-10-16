@@ -62,18 +62,18 @@ This open source web application framework and example base on version v1.5.8
 > AngularJS has a built-in dependency injection subsystem that helps the developer by making the application easier to develop, understand, and test.
 
 ###Example & Applications
-* [Login](component/login/index.html){:target="_blank"}
-* [Nav bar](component/nav/index.html){:target="_blank"}
-* [ToDo](component/todo/index.html){:target="_blank"}
-* [Upload](component/upload/upload.html){:target="_blank"}
-* [Search](component/search/index.html){:target="_blank"}
-* [Order](component/order/index.html){:target="_blank"}
-* [Cart](component/cart/index.html){:target="_blank"}
-* [Chart](component/chart/index.htm){:target="_blank"}
-* [Map](component/map/index.html){:target="_blank"}
-* [Share](component/share/index.htm){:target="_blank"}
-* [Weather](component/weather/index.htm){:target="_blank"}
-* [Timer](component/timer/index.htm){:target="_blank"}
-* [Lastfm](component/lastfm/index.htm){:target="_blank"}
-* [Translate](component/translate/translate.htm){:target="_blank"}
-* [Leaflet](component/leaflet/index.htm){:target="_blank"}
+* [Login](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/login/index.html)
+* [Nav bar](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/nav/index.html)
+* [ToDo](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/todo/index.html)
+* [Upload](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/upload/upload.html)
+* [Search](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/search/index.html)
+* [Order](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/order/index.html)
+* [Cart](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/cart/index.html)
+* [Chart](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/chart/index.htm)
+* [Map](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/map/index.html)
+* [Share](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/share/index.htm)
+* [Weather](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/weather/index.htm)
+* [Timer](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/timer/index.htm)
+* [Lastfm](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/lastfm/index.htm)
+* [Translate](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/translate/translate.html)
+* [Leaflet](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/leaflet/index.htm)
