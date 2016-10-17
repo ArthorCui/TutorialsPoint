@@ -1,6 +1,8 @@
 #Hexo
 Hexo is a fast, simple and powerful blog framework. You write posts in `Markdown` (or other languages) and Hexo generates static files with a beautiful theme in seconds.
 
+If you see some simple themes, see [here](#themes)
+
 ##Setup & Installation
 
 ####requirenments
