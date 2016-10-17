@@ -29,7 +29,7 @@ And below is some new my knowledge skill list:
 ######fronted and script related
 * **_[AngularJS](angularJS)_**
 * **_[TS](typescript)_**
-* **_[VueJS](VueJS)_**
+* **_[VueJS](vueJS)_**
 * **[ReactJS](reactJS)**
 
 ######html and css related
