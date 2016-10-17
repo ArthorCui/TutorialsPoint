@@ -8,7 +8,9 @@ Vue (pronounced /vjuː/, like view) is a progressive framework for building user
 > ```
 # latest stable
 $ npm install vue
+> ```
 
+> ```
 # dev build
 git clone https://github.com/vuejs/vue.git node_modules/vue
 cd node_modules/vue
@@ -43,21 +45,22 @@ var app = new Vue({
   }
 })
 ```
-###[Instance](instance.md)
 
-###[Template Syntax](template-syntax.md)
+* **[Instance](instance.md)**
 
-###[Computed Properties and Watchers](computed-properties-and-watchers.md)
+* **[Template Syntax](template-syntax.md)**
 
-###[Class and Style Bindings](class-and-style-bindings.md)
+* **[Computed Properties and Watchers](computed-properties-and-watchers.md)**
 
-###[Conditional Rendering](conditional-rendering.md)
+* **[Class and Style Bindings](class-and-style-bindings.md)**
 
-###[List Rendering](list-rendering.md)
+* **[Conditional Rendering](conditional-rendering.md)**
 
-###[Event Handling](event-handling.md)
+* **[List Rendering](list-rendering.md)**
 
-###[Form Input Bindings](form-input-binding.md)
+* **[Event Handling](event-handling.md)**
 
-###[Component](component.md)
+* **[Form Input Bindings](form-input-binding.md)**
+
+* **[Component](component.md)**
 
