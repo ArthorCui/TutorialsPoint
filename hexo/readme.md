@@ -78,4 +78,103 @@ such as system automatic `landscape`, and I found some other simple and liked th
 ##Configuration
 
 ##Commands
+
+* **init**
+
+```
+$ hexo init [folder]
+```
+
+* **new**
+
+```
+$ hexo new layout <title>
+```
+
+* **generate**
+
+> * -d, --deploy	Deploy after generation finishes
+> * -w, --watch	Watch file changes
+
+```
+$ hexo generate
+```
+
+* **publish**
+Publishes a draft.
+
+```
+$ hexo publish [layout] <filename>
+```
+
+* **server**
+Starts a local server. By default, this is at http://localhost:4000/.
+
+> * -p, --port	Override default port
+> * -s, --static	Only serve static files
+> * -l, --log	Enable logger. Override logger format.
+
+```
+$ hexo server
+```
+
+* **deploy**
+Deploys your website.
+> -g, --generate	Generate before deployment
+
+```
+$ hexo deploy
+```
+
+* **clean**
+Cleans the cache file (db.json) and generated files (public).
+
+```
+$ hexo clean
+```
+
+* **list**
+Lists all routes.
+
+```
+$ hexo list
+```
+
 ##Migration
+
+* **RSS**
+First, install the `hexo-migrator-rss` plugin.
+```
+$ npm install hexo-migrator-rss --save
+$ hexo migrate rss <source>
+```
+
+* **Jekyll**
+Move all files in the Jekyll `_posts` folder to the `source/_posts` folder.
+
+Modify the `new_post_name` setting in `_config.yml`:
+```
+new_post_name: :year-:month-:day-:title.md
+```
+
+* **Octopress**
+Move all files in the Octopress `_posts` folder to the `source/_posts` folder.
+
+Modify the `new_post_name` setting in `_config.yml`:
+```
+new_post_name: :year-:month-:day-:title.md
+```
+
+* **WordPress**
+First, install the hexo-migrator-wordpress plugin.
+```
+$ npm install hexo-migrator-wordpress --save
+$ hexo migrate wordpress <source>
+```
+
+* **Joomla**
+First, install the hexo-migrator-joomla plugin.
+```
+$ npm install hexo-migrator-joomla --save
+$ hexo migrate joomla  <source>
+```
