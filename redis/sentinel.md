@@ -19,6 +19,20 @@ Sentinels by default run listening for connections to TCP `port 26379`, so for S
 
 ####Running Sentinel
 
+If you are using the redis-sentinel executable (or if you have a symbolic link with that name to the redis-server executable) you can run Sentinel with the following command line:
+
+```
+redis-sentinel /path/to/sentinel.conf
+```
+
+Otherwise you can use directly the redis-server executable starting it in Sentinel mode:
+
+```
+redis-server /path/to/sentinel.conf --sentinel
+```
+
+Both ways work the same.
+
 ####Configuring Sentinel
 
 A template see [here](sentinel.conf)
