@@ -27,6 +27,8 @@ Redis has three main peculiarities that set it apart from much of its competitio
 
 ##Environment
 Sample use Ubuntu...
+
+Windows version see [here](#windows)
 ```
 $sudo apt-get update
 $sudo apt-get install redis-server
@@ -48,8 +50,6 @@ $redis-cli -h 127.0.0.1 -p 6379
 redis 127.0.0.1:6379> ping
 PONG
 ```
-BTW, if you install the windows version, maybe you should use [chocolatey](https://chocolatey.org/packages/redis-64) to install windows redis nuget packages.
-And the detail see the offical site [here](http://redis.io/download)
 
 ##Configuration
 Redis is able to start without a configuration file using a built-in default configuration, however this setup is only recommended for testing and development purposes.
@@ -212,12 +212,34 @@ redis 127.0.0.1:6379> ZRANGEBYSCORE tutoriallist 0 1000
 * [Connection](connection.md)
 * [Server](server.md)
 
-##Advanced-Commands
-* [Backup]
-* [Security]
-* [Benchmarks]
-* [Client Connection]
-* [Pipelining]
-* [Partitioning]
-* [jredis]
-* [phpredis]
+##Advanced
+
+* [Redis Sentinel](sentinel.md)
+
+##Windows
+BTW, if you install the windows version, maybe you should use [chocolatey](https://chocolatey.org/packages/redis-64) to install windows redis nuget packages.
+And the detail see the offical site [here](http://redis.io/download)
+
+```
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+choco install redis-64
+```
+
+####Install windows service
+
+```
+#install:
+redis-server --service-install redis.windows.conf --loglevel verbose
+redis-server --service-install --service-name Redis6380 --port 6380
+
+#uninstall:
+redis-server --service-uninstall --service-name Redis6380 --port 6380
+
+#service `start` | `stop`
+redis-server --service start | stop
+
+#install redis sentinel
+redis-server --service-install --service-name redisSentinel sentinel.conf --sentinel
+```
+
