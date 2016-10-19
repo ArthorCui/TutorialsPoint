@@ -13,7 +13,7 @@ And below is some new my knowledge skill list:
 * ~~Java~~
 * **_[Python](https://github.com/itabas016/PythonTrip)_**
 * **_Flask_**
-* **_NodeJS_**
+* **_NodeJS(nodeJS)_**
 * **_[.Net Core](https://github.com/itabas016/zablo)_**
 * **PHP**
 * **R**
