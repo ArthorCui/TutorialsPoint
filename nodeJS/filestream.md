@@ -101,13 +101,13 @@ see the example [here](#getfile-example)
 * **callback** − This is the callback function which gets two arguments (err, stats) where `stats` is an object of `fs.Stats` type which is printed below in the example.
 
 ######stat method
-`stats.isFile()`			Returns true if file type of a simple file.
-`stats.isDirectory()`		Returns true if file type of a directory.
-`stats.isBlockDevice()`		Returns true if file type of a block device.
-`stats.isCharacterDevice()`	Returns true if file type of a character device.
-`stats.isSymbolicLink()`	Returns true if file type of a symbolic link.
-`stats.isFIFO()`			Returns true if file type of a FIFO.
-`stats.isSocket()`			Returns true if file type of asocket.
+* `stats.isFile()`			Returns true if file type of a simple file.
+* `stats.isDirectory()`		Returns true if file type of a directory.
+* `stats.isBlockDevice()`		Returns true if file type of a block device.
+* `stats.isCharacterDevice()`	Returns true if file type of a character device.
+* `stats.isSymbolicLink()`	Returns true if file type of a symbolic link.
+* `stats.isFIFO()`			Returns true if file type of a FIFO.
+* `stats.isSocket()`			Returns true if file type of asocket.
 
 #####GetFile-Example
 ```
