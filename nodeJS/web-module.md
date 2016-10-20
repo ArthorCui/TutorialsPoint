@@ -4,7 +4,7 @@ Let me first see the web application architecture:
 
 A Web application is usually divided into four layers: 
 
-![web_architecture](web_architecture.jpg)
+![web architecture](web_architecture.jpg)
 
 * **Client** − This layer consists of web browsers, mobile browsers or applications which can make HTTP requests to the web server.
 * **Server** − This layer has the Web server which can intercept the requests made by the clients and pass them the response.
@@ -13,7 +13,7 @@ A Web application is usually divided into four layers:
 
 ###QuickStart
 
-* **Create a Web Server
+* **Create a Web Server**
 
 Node.js provides an http module which can be used to create an HTTP client of a server. Following is the bare minimum structure of the HTTP server which listens at 8081 port.
 
@@ -21,7 +21,7 @@ The detail server code see [here](server.js). Default web server page is `index.
 
 Just run `$ node server.js`
 
-* **Create a Web Client
+* **Create a Web Client**
 
 A web client can be created using http module. Let's check the following example.
 
