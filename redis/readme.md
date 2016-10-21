@@ -212,7 +212,7 @@ redis 127.0.0.1:6379> ZRANGEBYSCORE tutoriallist 0 1000
 * [Connection](connection.md)
 * [Server](server.md)
 
-##Advanced
+##Advanced-Commands
 
 * [Redis Sentinel](sentinel.md)
 
