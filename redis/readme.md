@@ -19,11 +19,11 @@ Redis has three main peculiarities that set it apart from much of its competitio
 * MultiUtility Tool : Redis is a multi utility tool and can be used in a number of usecases like caching, messaging-queues (Redis natively supports Publish/ Subscribe ), any short lived data in your application like web application sessions, web page hit counts, etc.
 
 #Guide
-* [Environment](#Environment)
-* [Configuration](#Configuration)
-* [Data Types](#DataTypes)
-* [Basic Commands](#Basic-Commands)
-* [Advanced Commands](#Advanced-Commands)
+* [Environment](#environment)
+* [Configuration](#configuration)
+* [Data Types](#dataTypes)
+* [Basic Commands](#basic-commands)
+* [Advanced Commands](#advanced-commands)
 
 ##Environment
 Sample use Ubuntu...
@@ -212,8 +212,7 @@ redis 127.0.0.1:6379> ZRANGEBYSCORE tutoriallist 0 1000
 * [Connection](connection.md)
 * [Server](server.md)
 
-##Advanced
-
+##Advanced-Commands
 * [Redis Sentinel](sentinel.md)
 
 ##Windows
