@@ -46,3 +46,22 @@ $ lua helloWorld
 
 * **[Loops](loops.md)**
 
+* **[Decision Making](decision-making.md)**
+
+* **[Functions](functions.md)**
+
+* **[Strings](strings.md)**
+
+* **[Arrays](arrays.md)**
+
+* **[Iterators](iterators.md)**
+
+* **[Tables](tables.md)**
+
+* **[Modules](modules.md)**
+
+* **[Metatables](metatables.md)**
+
+* **[Coroutines](coroutines.md)**
+
+* **[File I/O](file.md)**
