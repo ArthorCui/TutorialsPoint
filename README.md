@@ -33,13 +33,13 @@ And below is some new my knowledge skill list:
 * **[ReactJS](reactJS)**
 
 ######html and css related
-* **[Hexo](hexo)**
+* **_[Hexo](hexo)_**
 * **_[Bootstrap](bootstrap)_**
 
 ######bash and shell command
 * ~~Shell~~
-* **Go**
-* **Lua**
+* **_[Go](golang)_**
+* ~~[Lua](lua)~~
 * **Perl**
 
 ######database & big data related
