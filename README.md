@@ -30,10 +30,10 @@ And below is some new my knowledge skill list:
 * **_[AngularJS](angularJS)_**
 * **_[TS](typescript)_**
 * **_[VueJS](vueJS)_**
-* **[ReactJS](reactJS)**
+* **_[ReactJS](reactJS)_**
 
 ######html and css related
-* **_[Hexo](hexo)_**
+* **~~[Hexo](hexo)~~**
 * **_[Bootstrap](bootstrap)_**
 
 ######bash and shell command
@@ -55,8 +55,8 @@ And below is some new my knowledge skill list:
 ######framework & web extension related
 * **Docker**
 * ~~Nginx~~
-* **_Haproxy_**
-* **_Raspberry_**
+* **~~Haproxy~~**
+* **~~Raspberry~~**
 
 ######HeadFirstSeries
 * ~~[HeadFirstDesignPattern](https://github.com/itabas016/designpattern)~~
