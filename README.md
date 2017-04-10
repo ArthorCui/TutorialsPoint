@@ -34,12 +34,14 @@ And below is some new my knowledge skill list:
 
 ######html and css related
 * **~~[Hexo](hexo)~~**
+* **~~[Simiki](http://wiki.itabas.com)~~**
+* **~~[Fontawesome](http://fontawesome.io)~~**
 * **_[Bootstrap](bootstrap)_**
 
 ######bash and shell command
 * ~~Shell~~
-* **_[Go](golang)_**
 * ~~[Lua](lua)~~
+* **_[Go](golang)_**
 * **Perl**
 
 ######database & big data related
