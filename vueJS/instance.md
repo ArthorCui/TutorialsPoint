@@ -1,6 +1,6 @@
-###Instance
+### Instance
 
-#####Constructor
+##### Constructor
 
 Every Vue vm is bootstrapped by creating a root Vue instance with the Vue constructor function:
 
@@ -25,7 +25,7 @@ var myComponentInstance = new MyComponent()
 
 Although it is possible to create extended instances imperatively, most of the time it is recommended to compose them declaratively in templates as custom elements. We will talk about the component system in detail later. For now, you just need to know that all Vue components are essentially extended Vue instances
 
-#####Properties and Methods
+##### Properties and Methods
 It should be noted that only these proxied properties are reactive. If you attach a new property to the instance after it has been created, it will not trigger any view updates. We will discuss the reactivity system in detail later.
 
 In addition to data properties, Vue instances expose a number of useful instance properties and methods. These properties and methods are prefixed with $ to differentiate them from proxied data properties. For example:
@@ -44,7 +44,7 @@ vm.$watch('a', function (newVal, oldVal) {
 })
 ```
 
-#####Instance Lifecycle Hooks
+##### Instance Lifecycle Hooks
 
 Each Vue instance goes through a series of initialization steps when it is created - for example, it needs to set up data observation, compile the template, mount the instance to the DOM, and update the DOM when data changes. Along the way, it will also invoke some lifecycle hooks, which give us the opportunity to execute custom logic. For example, the `created` hook is called after the instance is created:
 

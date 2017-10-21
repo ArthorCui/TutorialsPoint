@@ -1,4 +1,4 @@
-####Syntax
+#### Syntax
 Redis Hashes are maps between string fields and string values, so they are the perfect data type to represent objects
 
 In redis every hash can store up to more than 4 billion field-value pairs.
@@ -17,7 +17,7 @@ redis 127.0.0.1:6379> HGETALL tutorialspoint
 8) "23000"
 ```
 
-####Related Commands
+#### Related Commands
 * **HDEL** key field1 [field2]
 
 > Delete one or more hash fields

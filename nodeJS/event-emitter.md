@@ -1,8 +1,8 @@
-##Event emitter
+## Event emitter
 
 About simple event example see [Event loop](event-loop.md)
 
-####EventEmitter Class
+#### EventEmitter Class
 
 ```
 // Import events module
@@ -16,7 +16,7 @@ When an EventEmitter instance faces any error, it emits an 'error' event. When a
 
 EventEmitter provides multiple properties like `on` and `emit. on` property is used to bind a function with the event and `emit` is used to fire an event.
 
-####EventEmitter Method
+#### EventEmitter Method
 
 * **addListener(event, listener)**
 
@@ -50,13 +50,13 @@ EventEmitter provides multiple properties like `on` and `emit. on` property is u
 
 > Execute each of the listeners in order with the supplied arguments. Returns true if the event had listeners, false otherwise.
 
-####Class Methods
+#### Class Methods
 
 * **listenerCount(emitter, event)**
 
 > Returns the number of listeners for a given event.
 
-####Example
+#### Example
 
 ```
 var events = require('events');

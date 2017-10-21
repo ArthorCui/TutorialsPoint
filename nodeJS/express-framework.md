@@ -1,4 +1,4 @@
-##Express Framework
+## Express Framework
 
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. It facilitates the rapid development of Node based Web applications. Following are some of the core features of Express framework −
 
@@ -6,7 +6,7 @@ Express is a minimal and flexible Node.js web application framework that provide
 * Defines a routing table which is used to perform different actions based on HTTP Method and URL.
 * Allows to dynamically render HTML Pages based on passing arguments to templates.
 
-###Install Express
+### Install Express
 
 ```
 $ npm install express --save
@@ -24,7 +24,7 @@ $ npm install cookie-parser --save
 $ npm install multer --save
 ```
 
-#####Example
+##### Example
 ```
 var express = require('express');
 var app = express();
@@ -49,7 +49,7 @@ var server = app.listen(8081, function () {
 * **[File Upload](#file-upload)**
 * **[Cookies](#cookies)**
 
-###Request-Response
+### Request-Response
 
 * **Request Object** − The request object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers, and so on.
 * **Response Object** − The response object represents the HTTP response that an Express app sends when it gets an HTTP request.
@@ -62,7 +62,7 @@ app.get('/', function (req, res) {
 })
 ```
 
-###Basic-Routing
+### Basic-Routing
 
 Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
 
@@ -111,11 +111,11 @@ var server = app.listen(8081, function () {
 })
 ```
 
-###Static-File
+### Static-File
 
 Simply need to pass the name of the directory where you keep your static assets, to the express.static middleware to start serving the files directly. For example, if you keep your images, CSS, and JavaScript files in a directory named public, you can do this `app.use(express.static('public'));`
 
-#####example
+##### example
 
 ```
 var express = require('express');
@@ -136,9 +136,9 @@ var server = app.listen(8081, function () {
 })
 ```
 
-###Get
+### Get
 
-#####example
+##### example
 
 `Html`
 ```
@@ -185,9 +185,9 @@ var server = app.listen(8081, function () {
 
 > output result: `{"first_name":"John","last_name":"Paul"}`
 
-###Post
+### Post
 
-#####example
+##### example
 
 `Html`
 ```
@@ -239,11 +239,11 @@ var server = app.listen(8081, function () {
 
 > output result: `{"first_name":"John","last_name":"Paul"}`
 
-###File-Upload
+### File-Upload
 
 The following HTML code creates a file uploader form. This form has method attribute set to POST and enctype attribute is set to multipart/form-data.
 
-#####example
+##### example
 
 `Html`
 ```
@@ -314,9 +314,9 @@ var server = app.listen(8081, function () {
 })
 ```
 
-###Cookies
+### Cookies
 
-#####example
+##### example
 
 ```
 var express = require('express')

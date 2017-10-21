@@ -1,6 +1,6 @@
-###Template Syntax
+### Template Syntax
 
-#####Interpolations
+##### Interpolations
 
 * **Text**
 
@@ -59,7 +59,7 @@ new Vue({
 })
 ```
 
-#####Directives
+##### Directives
 
 Directives are special attributes with the `v-` prefix. Directive attribute values are expected to be a single JavaScript expression (with the exception for `v-for`, which will be discussed later). A directive’s job is to reactively apply side effects to the DOM when the value of its expression changes. Let’s review the example we saw in the introduction:
 
@@ -84,7 +84,7 @@ Modifiers are special postfixes denoted by a dot, which indicate that a directiv
 <form v-on:submit.prevent="onSubmit"></form>
 ```
 
-#####Shorthands
+##### Shorthands
 
 * **`v-bind` Shorthand**
 

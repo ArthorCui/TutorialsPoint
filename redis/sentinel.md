@@ -1,4 +1,4 @@
-#Redis Sentinel
+# Redis Sentinel
 
 Redis Sentinel provides high availability for Redis. In practical terms this means that using Sentinel you can create a Redis deployment that resists without human intervention to certain kind of failures.
 Redis Sentinel also provides other collateral tasks such as monitoring, notifications and acts as a configuration provider for clients.
@@ -13,11 +13,11 @@ A stable release of Redis Sentinel is shipped since `Redis 2.8`
 
 And offical site see [here](http://redis.io/topics/sentinel)
 
-##Quick Start
+## Quick Start
 
 Sentinels by default run listening for connections to TCP `port 26379`, so for Sentinels to work, `port 26379` of your servers **must be open** to receive connections from the IP addresses of the other Sentinel instances. Otherwise Sentinels can't talk and can't agree about what to do, so failover will never be performed.
 
-####Running Sentinel
+#### Running Sentinel
 
 If you are using the redis-sentinel executable (or if you have a symbolic link with that name to the redis-server executable) you can run Sentinel with the following command line:
 
@@ -33,7 +33,7 @@ redis-server /path/to/sentinel.conf --sentinel
 
 Both ways work the same.
 
-####Configuring Sentinel
+#### Configuring Sentinel
 
 A template see [here](sentinel.conf)
 

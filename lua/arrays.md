@@ -1,10 +1,10 @@
-##Arrays
+## Arrays
 
 Arrays are ordered arrangement of objects, which may be a one dimensional array containing a collection of rows or a multi-dimensional array containing multiple rows and columns.
 
 In Lua, arrays are implemented using indexing tables with integers. The size of an array is not fixed and it can grow based on our requirements, subject to memory constraints.
 
-###One-Dimensional Array
+### One-Dimensional Array
 
 A `one-dimensional` array can be represented using a simple table structure and can be initialized and read using a simple `for loop`. 
 
@@ -16,7 +16,7 @@ for i= 0, 2 do
 end
 ```
 
-###Multi-Dimensional Array
+### Multi-Dimensional Array
 
 Multi-dimensional arrays can be implemented in two ways.
 
@@ -24,7 +24,7 @@ Multi-dimensional arrays can be implemented in two ways.
 
 > Single dimensional array by manipulating indices
 
-####Example
+#### Example
 
 ```
 -- Initializing the array
@@ -63,7 +63,7 @@ output:
 9
 ```
 
-#####The other way
+##### The other way
 
 ```
 -- Initializing the array

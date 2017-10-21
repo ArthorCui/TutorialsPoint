@@ -1,9 +1,9 @@
-####Syntax
+#### Syntax
 Redis Sorted Sets are similar to Redis Sets with unique feature of values stored in set. The difference is that every member of a Sorted Set is associated with score, that is used in order to take the sorted set ordered, from the smallest to the greatest score.
 
 In redis sorted set add, remove, and test for existence of members in O(1) (constant time regardless of the number of elements contained inside the Set). Maximum length of a list is 232 - 1 elements (4294967295, more than 4 billion of elements per set).
 
-######example
+###### example
 ```
 redis 127.0.0.1:6379> ZADD tutorials 1 redis
 (integer) 1
@@ -26,7 +26,7 @@ redis 127.0.0.1:6379> ZRANGE tutorials 0 10 WITHSCORES
 
 ```
 
-####Related Commands
+#### Related Commands
 
 * **ZCARD** key
 

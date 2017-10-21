@@ -1,7 +1,7 @@
-#NodeJS
+# NodeJS
 Node.js is a very powerful JavaScript-based framework/platform built on Google Chrome's JavaScript V8 Engine. It is used to develop I/O intensive web applications like video streaming sites, single-page applications, and other web applications.
 
-##Features
+## Features
 * **Asynchronous and Event Driven** − All APIs of Node.js library are asynchronous, that is, non-blocking. It essentially means a Node.js based server never waits for an API to return data. The server moves to the next API after calling it and a notification mechanism of Events of Node.js helps the server to get a response from the previous API call.
 
 * **Very Fast** − Being built on Google Chrome's V8 JavaScript Engine, Node.js library is very fast in code execution.
@@ -12,7 +12,7 @@ Node.js is a very powerful JavaScript-based framework/platform built on Google C
 
 * **License** − Node.js is released under the MIT license.
 
-##Environment
+## Environment
 
 > Windows	node-v0.12.0-x64.msi
 > Linux		node-v0.12.0-linux-x86.tar.gz
@@ -30,7 +30,7 @@ $ mkdir -p /usr/local/nodejs
 $ mv node-v0.12.0-linux-x64/* /usr/local/nodejs
 ```
 
-##Quick Start
+## Quick Start
 
 A Node.js application consists of the following three important components:
 
@@ -42,7 +42,7 @@ A Node.js application consists of the following three important components:
 
 see the example [here](helloworld.js). Just run `$ node helloworld.js`
 
-##Package Manager
+## Package Manager
 
 NPM comes bundled with Node.js installables after v0.6.3 version. To verify the same, open console and type the following command and see the result `$ npm --version`
 
@@ -91,7 +91,7 @@ Email: (this IS public) mcmohd@gmail.com
 $ npm publish
 ```
 
-##Modules
+## Modules
 
 * **[CallBack](callback.md)**
 * **[Event Loop](event-loop.md)**

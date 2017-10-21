@@ -1,4 +1,4 @@
-##Strings
+## Strings
 
 String is a sequence of characters as well as control characters like form feed. String can be initialized with three forms which includes −
 
@@ -17,7 +17,7 @@ string3 = [["Lua Tutorial"]]
 print("String 3 is",string3)
 ```
 
-###Syntax
+### Syntax
 
 * `\a`	Bell
 * `\b`	Backspace
@@ -32,7 +32,7 @@ print("String 3 is",string3)
 * `\[`	Left square bracket
 * `\]`	Right square bracket
 
-###String Manipulation
+### String Manipulation
 
 * `string.upper(arg)`
 * `string.lower(arg)`
@@ -45,7 +45,7 @@ print("String 3 is",string3)
 * [`string.rep(string, n))`](#rep)
 * [`..`](#d-dot)
 
-####gsub
+#### gsub
 
 > Returns a string by replacing occurrences of findString with replaceString.
 
@@ -60,7 +60,7 @@ print("The new string is",newstring)
 The new string is	Lua Language
 ```
 
-####find-reverse
+#### find-reverse
 
 > Returns the start index and end index of the findString in the main string and nil if not found.
 
@@ -77,7 +77,7 @@ print("The new string is",reversedString)
 The new string is	lairotuT auL
 ```
 
-####format
+#### format
 
 > Returns a formatted string.
 
@@ -103,7 +103,7 @@ Basic formatting Lua Tutorial
 Date formatting 02/01/2014
 0.3333
 ```
-####char-byte
+#### char-byte
 
 > Returns internal numeric and character representations of input argument.
 
@@ -136,7 +136,7 @@ print(string.char(97))
 117
 a
 ```
-####rep
+#### rep
 
 > Returns a string by repeating the same string n number times.
 
@@ -151,7 +151,7 @@ print(repeatedString)
 #output
 LuaLuaLua
 ```
-####d-dot
+#### d-dot
 
 > Thus operator concatenates two strings.
 

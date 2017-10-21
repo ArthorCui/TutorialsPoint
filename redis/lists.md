@@ -1,9 +1,9 @@
-####Syntax
+#### Syntax
 Redis Lists are simply lists of strings, sorted by insertion order. You can add elements in redis lists in head or tail of list.
 
 Maximum length of a list is 232 - 1 elements (4294967295, more than 4 billion of elements per list).
 
-######example
+###### example
 ```
 redis 127.0.0.1:6379> LPUSH tutorials redis
 (integer) 1
@@ -18,7 +18,7 @@ redis 127.0.0.1:6379> LRANGE tutorials 0 10
 3) "redis"
 ```
 
-####Related Commands
+#### Related Commands
 
 * **RPUSH** key value1 [value2]
 

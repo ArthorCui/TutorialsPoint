@@ -1,4 +1,4 @@
-###Computed Properties and Watchers
+### Computed Properties and Watchers
 
 n-template expressions are very convenient, but they are really only meant for simple operations. Putting too much logic into your templates can make them bloated and hard to maintain. 
 
@@ -6,16 +6,16 @@ At this point, the template is no longer simple and declarative. You have to loo
 
 That’s why for any complex logic, you should use a computed property.
 
-#####example
+##### example
 
-######HTML
+###### HTML
 ```
 <div id="example">
   <p>Original message: "{{ message }}"</p>
   <p>Computed reversed message: "{{ reversedMessage }}"</p>
 </div>
 ```
-######JS
+###### JS
 ```
 var vm = new Vue({
   el: '#example',

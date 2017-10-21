@@ -1,9 +1,9 @@
-####Syntax
+#### Syntax
 Redis pub sub implements the messaging system where senders (in redis terminology called publishers) sends the messages while receivers (subscribers) receive them. The link by which messages are transferred is called channel.
 
 In redis a client can subscribe any number of channels.
 
-######example
+###### example
 ```
 redis 127.0.0.1:6379> SUBSCRIBE redisChat
 
@@ -24,7 +24,7 @@ redis 127.0.0.1:6379> PUBLISH redisChat "Learn redis by tutorials point"
 3) "Learn redis by tutorials point"
 ```
 
-####Related Commands
+#### Related Commands
 
 * **PSUBSCRIBE** pattern [pattern ...]
 

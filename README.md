@@ -1,15 +1,15 @@
-# TutorialsPoint
+# TutorialsPoint #
 Knowledge and Exercise for Tutorials Point  
 
-A repo about knowledge learn and share...
+> _This repo is tech stack collection about learning of Knowledge and Exercise from [Tutorials Point](http://www.tutorialspoint.com/) and is also a place of knowledge learn and share..._
 
-And below is some new my knowledge skill list:
+> Below is my knowledge skill list:
 
 * Learned or Always used: ~~skill language~~
 * Learning now: **_skill language_**
 * In the future to learn: **skill language**
 
-######backend related
+### backend related ###
 * ~~Java~~
 * **_[Python](https://github.com/itabas016/PythonTrip)_**
 * **_Flask_**
@@ -18,7 +18,7 @@ And below is some new my knowledge skill list:
 * **PHP**
 * **R**
 
-######Microsoft
+### Microsoft ###
 * ~~ASP.NET~~
 * ~~ASP.NET MVC~~
 * ~~C#~~
@@ -26,23 +26,23 @@ And below is some new my knowledge skill list:
 * ~~LINQ~~
 * **_NHibernate_**
 
-######fronted and script related
+### fronted and script related ###
 * **_[AngularJS](angularJS)_**
 * **_[TS](typescript)_**
 * **_[VueJS](vueJS)_**
 * **[ReactJS](reactJS)**
 
-######html and css related
+### html and css related ###
 * **_[Hexo](hexo)_**
 * **_[Bootstrap](bootstrap)_**
 
-######bash and shell command
+### bash and shell command ###
 * ~~Shell~~
 * **_[Go](golang)_**
 * ~~[Lua](lua)~~
 * **Perl**
 
-######database & big data related
+### database & big data related ###
 * ~~MySql~~
 * ~~SqlServer~~
 * ~~Oracle~~
@@ -52,13 +52,13 @@ And below is some new my knowledge skill list:
 * **Spark**
 * **Hadoop**
 
-######framework & web extension related
+### framework & web extension related ###
 * **Docker**
 * ~~Nginx~~
 * **_Haproxy_**
 * **_Raspberry_**
 
-######HeadFirstSeries
+### HeadFirstSeries ###
 * ~~[HeadFirstDesignPattern](https://github.com/itabas016/designpattern)~~
 * ~~[HeadFirstjQuery](https://github.com/itabas016/HeadFirstjQuery)~~
 * ~~[HeadFirstHtmlCss](https://github.com/itabas016/HeadFirstHtml-Css)~~

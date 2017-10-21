@@ -1,4 +1,4 @@
-##RSETFul API
+## RSETFul API
 
 REST stands for REpresentational State Transfer. REST is a web standard based architecture that uses HTTP Protocol. It revolves around resources where every component is a resource and a resource is accessed by a common interface using HTTP standard methods. REST was first introduced by Roy Fielding in 2000.
 
@@ -15,16 +15,16 @@ The following four HTTP methods are commonly used in REST based architecture.
 > `POST` − This is used to update a existing resource or create an new resource.
 
 
-###REST web service
+### REST web service
 
 Web services based on REST Architecture are known as RESTful web services. These web services use HTTP methods to implement the concept of REST architecture. A RESTful web service usually defines a URI, Uniform Resource Identifier, which provides resource representation such as JSON and a set of HTTP Methods.
 
-###Example
+### Example
 
 We have a JSON based database of users - `users.json`, template see [here](users.json), 
 And the complete example code see [here](restfulAPI-example.js) 
 
-####List Users
+#### List Users
 
 ```
 var express = require('express');
@@ -46,7 +46,7 @@ var server = app.listen(8081, function () {
 })
 ```
 
-####Add User
+#### Add User
 
 First prepared a user entity:
 
@@ -80,7 +80,7 @@ var server = app.listen(8081, function () {
 })
 ```
 
-####User Detail
+#### User Detail
 
 ```
 var express = require('express');
@@ -104,7 +104,7 @@ var server = app.listen(8081, function () {
 })
 ```
 
-####Delete User
+#### Delete User
 
 ```
 var express = require('express');

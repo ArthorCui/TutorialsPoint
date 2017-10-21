@@ -1,4 +1,4 @@
-####Syntax
+#### Syntax
 Redis transactions allow the execution of a group of commands in a single step. Transactions has two properties in it, which are described below:
 
 > All commands in a transaction are sequentially executed as a single isolated operation. It is not possible that a request issued by another client is served in the middle of the execution of a Redis transaction.
@@ -7,7 +7,7 @@ Redis transactions allow the execution of a group of commands in a single step. 
 
 Redis transaction is initiated by command MULTI and then you need to pass list of commands that should be executed in transaction and after that whole transaction is executed by EXEC command.
 
-######example
+###### example
 ```
 redis 127.0.0.1:6379> MULTI
 OK
@@ -24,7 +24,7 @@ redis 127.0.0.1:6379> EXEC
 3) (integer) 1
 ```
 
-####Related Commands
+#### Related Commands
 
 * **DISCARD**
 

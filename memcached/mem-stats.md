@@ -1,5 +1,6 @@
-##Stats
-###Syntax
+## Stats
+
+### Syntax
 Memcached stats command is used to return server statistics such as PID, version, connections, etc.
 
 The basic syntax of Memcached stats command is as shown below
@@ -7,7 +8,7 @@ The basic syntax of Memcached stats command is as shown below
 stats
 ```
 
-###Example
+### Example
 ```
 stats
 STAT pid 1162
@@ -61,8 +62,9 @@ STAT reclaimed 1
 END
 ```
 
-##Items
-###Syntax
+## Items
+
+### Syntax
 Memcached stats items command is used to get items statistics such as count, age, eviction, etc. organized by slabs ID.
 
 The basic syntax of Memcached stats items command is as shown below
@@ -70,7 +72,7 @@ The basic syntax of Memcached stats items command is as shown below
 stats items
 ```
 
-###Example
+### Example
 ```
 stats items
 STAT items:1:number 1
@@ -86,15 +88,16 @@ STAT items:1:evicted_unfetched 0
 END
 ```
 
-##Slabs
-###Syntax
+## Slabs
+
+### Syntax
 Memcached stats slabs command displays slabs statistics such as size, memory usage, commands, count etc. organized by slabs ID.
 The basic syntax of Memcached stats slabs command is as shown below
 ```
 stats slabs
 ```
 
-###Example
+### Example
 ```
 stats slabs
 STAT 1:chunk_size 96
@@ -118,15 +121,16 @@ STAT total_malloced 1048512
 END
 ```
 
-##Sizes
-###Syntax
+## Sizes
+
+### Syntax
 Memcached stats sizes command provides information about the sizes and number of items of each size within the cache. The information is returned in two columns. The first column is the size of the item (rounded up to the nearest 32 byte boundary) and the second column is the count of the number of items of that size within the cache.
 The basic syntax of Memcached stats sizes command is as shown below
 ```
 stats sizes
 ```
 
-###Example
+### Example
 ```
 stats sizes
 STAT 96 1
@@ -134,15 +138,16 @@ END
 ```
 The item size statistics are useful only to determine the sizes of the objects you are storing. Since the actual memory allocation is relevant only in terms of the chunk size and page size, the information is only useful during a careful debugging or diagnostic session.
 
-##Clear
-###Syntax
+## Clear
+
+### Syntax
 Memcached flush_all command is used to delete all data (key-value pairs) from the Memcached server. It accepts an optional parameter called time, that sets a time after which the Memcached data is to be cleared.
 The basic syntax of Memcached flush_all command is as shown below 
 ```
 flush_all [time] [noreply]
 ```
 
-###Example
+### Example
 ```
 set tutorialspoint 0 900 9
 memcached

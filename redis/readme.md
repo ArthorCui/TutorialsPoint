@@ -1,4 +1,4 @@
-#Documentation
+# Documentation
 Redis is an open source, advanced key-value store and a serious solution for building high-performance, scalable web applications.
 
 Redis has three main peculiarities that set it apart from much of its competition:
@@ -9,7 +9,7 @@ Redis has three main peculiarities that set it apart from much of its competitio
 
 * Redis can replicate data to any number of slaves.
 
-#Redis Advantages
+# Redis Advantages
 * Exceptionally Fast : Redis is very fast and can perform about 110000 SETs per second, about 81000 GETs per second.
 
 * Supports Rich data types : Redis natively supports most of the datatypes that most developers already know like list, set, sorted set, hashes. This makes it very easy to solve a variety of problems because we know which problem can be handled better by which data type.
@@ -18,14 +18,14 @@ Redis has three main peculiarities that set it apart from much of its competitio
 
 * MultiUtility Tool : Redis is a multi utility tool and can be used in a number of usecases like caching, messaging-queues (Redis natively supports Publish/ Subscribe ), any short lived data in your application like web application sessions, web page hit counts, etc.
 
-#Guide
+# Guide
 * [Environment](#environment)
 * [Configuration](#configuration)
 * [Data Types](#dataTypes)
 * [Basic Commands](#basic-commands)
 * [Advanced Commands](#advanced-commands)
 
-##Environment
+## Environment
 Sample use Ubuntu...
 
 Windows version see [here](#windows)
@@ -51,7 +51,7 @@ redis 127.0.0.1:6379> ping
 PONG
 ```
 
-##Configuration
+## Configuration
 Redis is able to start without a configuration file using a built-in default configuration, however this setup is only recommended for testing and development purposes.
 The proper way to configure Redis is by providing a Redis configuration file, usually called redis.conf.
 The redis.conf file contains a number of directives that have a very simple format:
@@ -93,11 +93,11 @@ redis 127.0.0.1:6379> CONFIG GET loglevel
 
 ```
 
-##DataTypes
+## DataTypes
 Redis supports 5 types of data types, which are described below:
 The detail see [here](http://redis.io/topics/data-types-intro)
 
-###Strings
+### Strings
 Redis string is a sequence of bytes. Strings in Redis are binary safe, meaning they have a known length not determined by any special terminating characters, so you can store anything up to 512 megabytes in one string.
 ```
 redis 127.0.0.1:6379> SET name "tutorialspoint"
@@ -108,7 +108,7 @@ redis 127.0.0.1:6379> GET name
 
 **NOTE:**<em> A String value can be at max 512 Megabytes in length.</em>
 
-###Hashes
+### Hashes
 A Redis hash is a collection of key value pairs. Redis Hashes are maps between string fields and string values, so they are used to represent objects
 
 While hashes are handy to represent objects, actually the number of fields you can put inside a hash has no practical limits (other than available memory), so you can use hashes in many different ways inside your application.
@@ -129,7 +129,7 @@ redis 127.0.0.1:6379> HGETALL user:1
 
 **NOTE:**<em> Every hash can store up to 232 - 1 field-value pairs (more than 4 billion).</em>
 
-###Lists
+### Lists
 Redis Lists are simply lists of strings, sorted by insertion order. You can add elements to a Redis List on the head or on the tail.
 
 
@@ -150,7 +150,7 @@ redis 127.0.0.1:6379> lrange tutoriallist 0 10
 
 **NOTE:**<em> The max length of a list is 232 - 1 elements (4294967295, more than 4 billion of elements per list).</em>
 
-###Sets
+### Sets
 Redis Sets are an unordered collection of Strings. In redis you can add, remove, and test for existence of members in O(1) time complexity.
 
 ```
@@ -173,7 +173,7 @@ redis 127.0.0.1:6379> smembers tutoriallist
 
 The max number of members in a set is 232 - 1 (4294967295, more than 4 billion of members per set).</em>
 
-###Sorted Sets
+### Sorted Sets
 Redis Sorted Sets are, similarly to Redis Sets, non repeating collections of Strings. The difference is that every member of a Sorted Set is associated with score, that is used in order to take the sorted set ordered, from the smallest to the greatest score. While members are unique, scores may be repeated.
 
 However while elements inside sets are not ordered, every element in a sorted set is associated with a floating point value, called the score (this is why the type is also similar to a hash, since every element is mapped to a value).
@@ -198,7 +198,7 @@ redis 127.0.0.1:6379> ZRANGEBYSCORE tutoriallist 0 1000
 3) "rabitmq"
 ```
 
-##Basic-Commands
+## Basic-Commands
 * [Keys](keys.md)
 * [Strings](strings.md)
 * [Hashes](hashes.md)
@@ -212,10 +212,10 @@ redis 127.0.0.1:6379> ZRANGEBYSCORE tutoriallist 0 1000
 * [Connection](connection.md)
 * [Server](server.md)
 
-##Advanced-Commands
+## Advanced-Commands
 * [Redis Sentinel](sentinel.md)
 
-##Windows
+## Windows
 BTW, if you install the windows version, maybe you should use [chocolatey](https://chocolatey.org/packages/redis-64) to install windows redis nuget packages.
 And the detail see the offical site [here](http://redis.io/download)
 
@@ -225,7 +225,7 @@ And the detail see the offical site [here](http://redis.io/download)
 choco install redis-64
 ```
 
-####Install windows service
+#### Install windows service
 
 ```
 #install:

@@ -1,4 +1,4 @@
-##Web Module
+## Web Module
 
 Let me first see the web application architecture:
 
@@ -11,7 +11,7 @@ A Web application is usually divided into four layers:
 * **Business** − This layer contains the application server which is utilized by the web server to do the required processing. This layer interacts with the data layer via the database or some external programs.
 * **Data** − This layer contains the databases or any other source of data.
 
-###QuickStart
+### QuickStart
 
 * **Create a Web Server**
 

@@ -1,8 +1,8 @@
-##Itrators
+## Itrators
 
 Iterator is a construct that enables you to traverse through the elements of the so called collection or container. In Lua, these collections often refer to tables, which are used to create various data structures like array.
 
-###Generic For Iterator
+### Generic For Iterator
 
 A generic `for` iterator provides the key value pairs of each element in the collection.
 
@@ -11,12 +11,12 @@ In Lua we use functions to represent iterators. Based on the state maintenance i
 * **Stateless Iterators**
 * **Stateful Iterators**
 
-####Stateless Iterators
+#### Stateless Iterators
 
 By the name itself we can understand that this type of iterator function does not retain any state.
 Let us now see an example of creating our own iterator using a simple function that prints the squares of `n` numbers.
 
-#####Syntax
+##### Syntax
 ```
 function square(iteratorMaxCount,currentNumber)
 
@@ -47,13 +47,13 @@ do
 end
 ```
 
-####Stateful Iterators
+#### Stateful Iterators
 
 The previous example of iteration using function does not retain the state. Each time the function is called, it returns the next element of the collection based on a second variable sent to the function. To hold the state of the current element, closures are used. Closure retain variables values across functions calls. To create a new closure, we create two functions including the closure itself and a factory, the function that creates the closure.
 
 Let us now see an example of creating our own iterator in which we will be using closures.
 
-#####Example
+##### Example
 
 ```
 array = {"Lua", "Tutorial"}

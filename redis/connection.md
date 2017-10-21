@@ -1,9 +1,9 @@
-####Syntax
+#### Syntax
 Redis connection commands are basically used to manage client connections with redis server.
 
 Following example explains how a client authenticate itself to redis server and checks whether server is running or not.
 
-######example
+###### example
 ```
 redis 127.0.0.1:6379> AUTH "password"
 OK
@@ -18,7 +18,7 @@ redis 127.0.0.1:6379> QUIT
 OK
 ```
 
-####Related Commands
+#### Related Commands
 
 * **AUTH** password
 

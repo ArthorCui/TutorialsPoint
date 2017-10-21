@@ -1,10 +1,10 @@
-####Syntax
+#### Syntax
 Redis keys commands are used for managing keys in redis. Syntax for using redis keys commands is shown below:
 ```
 redis 127.0.0.1:6379> COMMAND KEY_NAME
 ```
 
-####Related Commands
+#### Related Commands
 * **DEL** key
 
 > This command deletes the key, if exists
