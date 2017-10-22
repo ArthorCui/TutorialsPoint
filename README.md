@@ -1,5 +1,4 @@
 # TutorialsPoint #
-Knowledge and Exercise for Tutorials Point  
 
 > _This repo is tech stack collection about learning of Knowledge and Exercise from [Tutorials Point](http://www.tutorialspoint.com/) and is also a place of knowledge learn and share..._
 
@@ -9,7 +8,7 @@ Knowledge and Exercise for Tutorials Point
 * Learning now: **_skill language_**
 * In the future to learn: **skill language**
 
-### backend related ###
+### Backend Series ###
 * ~~Java~~
 * **_[Python](https://github.com/itabas016/PythonTrip)_**
 * **_Flask_**
@@ -18,7 +17,7 @@ Knowledge and Exercise for Tutorials Point
 * **PHP**
 * **R**
 
-### Microsoft ###
+### Microsoft Series ###
 * ~~ASP.NET~~
 * ~~ASP.NET MVC~~
 * ~~C#~~
@@ -26,25 +25,27 @@ Knowledge and Exercise for Tutorials Point
 * ~~LINQ~~
 * **_NHibernate_**
 
-### fronted and script related ###
+### Fronted Series ###
 * **_[AngularJS](angularJS)_**
 * **_[TS](typescript)_**
 * **_[VueJS](vueJS)_**
 * **[ReactJS](reactJS)**
 
-### html and css related ###
+### Static & Tools Series ###
+* ~~HTML~
+* ~~CSS~
 * **_[Hexo](hexo)_**
 * **_[Bootstrap](bootstrap)_**
 
-### bash and shell command ###
+### Bash & Shell Series ###
 * ~~Shell~~
 * **_[Go](golang)_**
 * ~~[Lua](lua)~~
 * **Perl**
 
-### database & big data related ###
-* ~~MySql~~
-* ~~SqlServer~~
+### Database & Big Data Series ###
+* ~~MySQL~~
+* ~~SQLServer~~
 * ~~Oracle~~
 * ~~[Redis](redis/readme.md)~~
 * ~~[Memcached](memcached/readme.md)~~
@@ -52,13 +53,18 @@ Knowledge and Exercise for Tutorials Point
 * **Spark**
 * **Hadoop**
 
-### framework & web extension related ###
+### Web Series ###
 * **Docker**
 * ~~Nginx~~
 * **_Haproxy_**
 * **_Raspberry_**
 
-### HeadFirstSeries ###
+### CI Series ###
+* **Docker**
+* **Travis CI**
+* ~~TeamCity~~
+
+### HeadFirst Series ###
 * ~~[HeadFirstDesignPattern](https://github.com/itabas016/designpattern)~~
 * ~~[HeadFirstjQuery](https://github.com/itabas016/HeadFirstjQuery)~~
 * ~~[HeadFirstHtmlCss](https://github.com/itabas016/HeadFirstHtml-Css)~~
