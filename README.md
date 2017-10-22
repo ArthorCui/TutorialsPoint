@@ -32,8 +32,8 @@
 * **[ReactJS](reactJS)**
 
 ### Static & Tools Series ###
-* ~~HTML~
-* ~~CSS~
+* ~~HTML~~
+* ~~CSS~~
 * **_[Hexo](hexo)_**
 * **_[Bootstrap](bootstrap)_**
 
