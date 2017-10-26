@@ -1,9 +1,9 @@
-####Syntax
+#### Syntax
 Redis HyperLogLog is a algorithm that use randomization in order to provide an approximation of the number of unique elements in a set using just a constant, and small, amount of memory.
 
 HyperLogLog provides a very good approximation of the cardinality of a set even using a very small amount of memory around 12 kbytes per key with a standard error of 0.81% and there is no limit to the number of items you can count, unless you approach 264 items.
 
-######example
+###### example
 ```
 redis 127.0.0.1:6379> PFADD tutorials "redis"
 1) (integer) 1
@@ -15,7 +15,7 @@ redis 127.0.0.1:6379> PFCOUNT tutorials
 (integer) 3
 ```
 
-####Related Commands
+#### Related Commands
 
 * **PFADD** key element [element ...]
 

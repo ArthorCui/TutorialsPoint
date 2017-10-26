@@ -1,4 +1,4 @@
-##File System
+## File System
 
 Node implements File I/O using simple wrappers around standard POSIX functions.
 The Node File System (fs) module can be imported using the following syntax:
@@ -7,7 +7,7 @@ The Node File System (fs) module can be imported using the following syntax:
 var fs = require("fs")
 ```
 
-###Synchronous & Asynchronous
+### Synchronous & Asynchronous
 Every method in the fs module has synchronous as well as asynchronous forms. Asynchronous methods take the last parameter as the completion function callback and the first parameter of the callback function as error. It is better to use an asynchronous method instead of a synchronous method, as the former never blocks a program during its execution, whereas the second one does.
 
 ```
@@ -28,7 +28,7 @@ console.log("Synchronous read: " + data.toString());
 console.log("Program Ended");
 ```
 
-###File and Directory Operations
+### File and Directory Operations
 
 * **[Open File](#open-file)**
 * **[Get File Information](#get-file-info)**
@@ -41,9 +41,9 @@ console.log("Program Ended");
 * **[Read Directory](#read-dir)**
 * **[Remove Directory](#remove-dir)**
 
-####Open-File
+#### Open-File
 
-#####Syntax
+##### Syntax
 
 Following is the syntax of the method to open a file in asynchronous mode:
 ```
@@ -51,14 +51,14 @@ fs.open(path, flags[, mode], callback)
 ```
 see the example [here](#openfile-example)
 
-#####Parameters
+##### Parameters
 
 * **path** − This is the string having file name including path.
 * **[flags](#flags)** − Flags indicate the behavior of the file to be opened. All possible values have been mentioned below.
 * **mode** − It sets the file mode (permission and sticky bits), but only if the file was created. It defaults to 0666, readable and writeable.
 * **callback** − This is the callback function which gets two arguments (err, fd).
 
-######Flags
+###### Flags
 * `r`	Open file for reading. An exception occurs if the file does not exist.
 * `r+`	Open file for reading and writing. An exception occurs if the file does not exist.
 * `rs`	Open file for reading in synchronous mode.
@@ -72,7 +72,7 @@ see the example [here](#openfile-example)
 * `a+`	Open file for reading and appending. The file is created if it does not exist.
 * `ax+`	Like 'a+' but fails if the the path exists.
 
-#####OpenFile-Example
+##### OpenFile-Example
 ```
 var fs = require("fs");
 
@@ -86,21 +86,21 @@ fs.open('input.txt', 'r+', function(err, fd) {
 });
 ```
 
-####Get-File-Info
+#### Get-File-Info
 
-#####Syntax
+##### Syntax
 
 ```
 fs.stat(path, callback)
 ```
 see the example [here](#getfile-example)
 
-#####Parameters
+##### Parameters
 
 * **path** − This is the string having file name including path.
 * **callback** − This is the callback function which gets two arguments (err, stats) where `stats` is an object of `fs.Stats` type which is printed below in the example.
 
-######stat method
+###### stat method
 * `stats.isFile()`			Returns true if file type of a simple file.
 * `stats.isDirectory()`		Returns true if file type of a directory.
 * `stats.isBlockDevice()`		Returns true if file type of a block device.
@@ -109,7 +109,7 @@ see the example [here](#getfile-example)
 * `stats.isFIFO()`			Returns true if file type of a FIFO.
 * `stats.isSocket()`			Returns true if file type of asocket.
 
-#####GetFile-Example
+##### GetFile-Example
 ```
 var fs = require("fs");
 
@@ -127,23 +127,23 @@ fs.stat('input.txt', function (err, stats) {
 });
 ```
 
-####Write-File
+#### Write-File
 
-#####Syntax
+##### Syntax
 
 ```
 fs.writeFile(filename, data[, options], callback)
 ```
 see the example [here](#writefile-example)
 
-#####Parameters
+##### Parameters
 
 * **path** − This is the string having the file name including path.
 * **data** − This is the String or Buffer to be written into the file.
 * **options** − The third parameter is an object which will hold {encoding, mode, flag}. By default. encoding is utf8, mode is octal value 0666. and flag is 'w'
 * **callback** − This is the callback function which gets a single parameter err that returns an error in case of any writing error.
 
-#####WriteFile-Example
+##### WriteFile-Example
 ```
 var fs = require("fs");
 
@@ -164,16 +164,16 @@ fs.writeFile('input.txt', 'Simply Easy Learning!',  function(err) {
 });
 ```
 
-####Read-File
+#### Read-File
 
-#####Syntax
+##### Syntax
 
 ```
 fs.read(fd, buffer, offset, length, position, callback)
 ```
 see the example [here](#Readfile-example)
 
-#####Parameters
+##### Parameters
 
 * **fd** − This is the file descriptor returned by fs.open().
 * **buffer** − This is the buffer that the data will be written to.
@@ -182,7 +182,7 @@ see the example [here](#Readfile-example)
 * **position** − This is an integer specifying where to begin reading from in the file. If position is null, data will be read from the current file position.
 * **callback** − This is the callback function which gets the three arguments, (err, bytesRead, buffer).
 
-#####ReadFile-Example
+##### ReadFile-Example
 ```
 var fs = require("fs");
 var buf = new Buffer(1024);
@@ -208,21 +208,21 @@ fs.open('input.txt', 'r+', function(err, fd) {
 });
 ```
 
-####Close-File
+#### Close-File
 
-#####Syntax
+##### Syntax
 
 ```
 fs.close(fd, callback)
 ```
 see the example [here](#closefile-example)
 
-#####Parameters
+##### Parameters
 
 * **fd** − This is the file descriptor returned by file fs.open() method.
 * **callback** − This is the callback function No arguments other than a possible exception are given to the completion callback.
 
-#####CloseFile-Example
+##### CloseFile-Example
 ```
 var fs = require("fs");
 var buf = new Buffer(1024);
@@ -256,22 +256,22 @@ fs.open('input.txt', 'r+', function(err, fd) {
 });
 ```
 
-####Truncate-File
+#### Truncate-File
 
-#####Syntax
+##### Syntax
 
 ```
 fs.ftruncate(fd, len, callback)
 ```
 see the example [here](#truncatefile-example)
 
-#####Parameters
+##### Parameters
 
 * **fd** − This is the file descriptor returned by fs.open().
 * **len** − This is the length of the file after which the file will be truncated.
 * **callback** − This is the callback function No arguments other than a possible exception are given to the completion callback.
 
-#####TruncateFile-Example
+##### TruncateFile-Example
 ```
 var fs = require("fs");
 var buf = new Buffer(1024);
@@ -314,21 +314,21 @@ fs.open('input.txt', 'r+', function(err, fd) {
 });
 ```
 
-####Delete-File
+#### Delete-File
 
-#####Syntax
+##### Syntax
 
 ```
 fs.unlink(path, callback)
 ```
 see the example [here](#deletefile-example)
 
-#####Parameters
+##### Parameters
 
 * **path** − This is the file name including path.
 * **callback** − This is the callback function No arguments other than a possible exception are given to the completion callback.
 
-#####DeleteFile-Example
+##### DeleteFile-Example
 ```
 var fs = require("fs");
 
@@ -341,22 +341,22 @@ fs.unlink('input.txt', function(err) {
 });
 ```
 
-####Create-Directory
+#### Create-Directory
 
-#####Syntax
+##### Syntax
 
 ```
 fs.mkdir(path[, mode], callback)
 ```
 see the example [here](#create-directory-example)
 
-#####Parameters
+##### Parameters
 
 * **path** − This is the directory name including path.
 * **mode** − This is the directory permission to be set. Defaults to 0777.
 * **callback** − This is the callback function No arguments other than a possible exception are given to the completion callback.
 
-#####Create-Directory-Example
+##### Create-Directory-Example
 ```
 var fs = require("fs");
 
@@ -369,21 +369,21 @@ fs.mkdir('/tmp/test',function(err){
 });
 ```
 
-####Read-Directory
+#### Read-Directory
 
-#####Syntax
+##### Syntax
 
 ```
 fs.readdir(path, callback)
 ```
 see the example [here](#read-directory-example)
 
-#####Parameters
+##### Parameters
 
 * **path** − This is the directory name including path.
 * **callback** − This is the callback function which gets two arguments (err, files) where files is an array of the names of the files in the directory excluding '.' and '..'.
 
-#####Read-Directory-Example
+##### Read-Directory-Example
 ```
 var fs = require("fs");
 
@@ -398,21 +398,21 @@ fs.readdir("/tmp/",function(err, files){
 });
 ```
 
-####Remove-Directory
+#### Remove-Directory
 
-#####Syntax
+##### Syntax
 
 ```
 fs.rmdir(path, callback)
 ```
 see the example [here](#remove-directory-example)
 
-#####Parameters
+##### Parameters
 
 * **path** − This is the directory name including path.
 * **callback** − This is the callback function No argume nts other than a possible exception are given to the completion callback.
 
-#####Remove-Directory-Example
+##### Remove-Directory-Example
 ```
 var fs = require("fs");
 

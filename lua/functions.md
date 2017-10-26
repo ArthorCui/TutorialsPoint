@@ -1,4 +1,4 @@
-##Functions
+## Functions
 
 A function is a group of statements that together perform a task. You can divide up your code into separate functions. How you divide up your code among different functions is up to you, but logically the division usually unique, is so each function performs a specific task.
 
@@ -6,7 +6,7 @@ The Lua language provides numerous built-in methods that your program can call. 
 
 A function is known with various names like a method or a sub-routine or a procedure etc.
 
-###Defining Function
+### Defining Function
 
 ```
 optional_function_scope function function_name( argument1, argument2, argument3..., argumentn)
@@ -21,7 +21,7 @@ end
 * **Function Body** − The method body contains a collection of statements that define what the method does.
 * **Return** − In Lua, it is possible to return multiple values by following the return keyword with the comma separated return values.
 
-####Example
+#### Example
 
 ```
 --[[ function returning the max between two numbers --]]
@@ -37,7 +37,7 @@ function max(num1, num2)
 end
 ```
 
-###Calling Function
+### Calling Function
 
 While creating a Lua function, you give a definition of what the function has to do. To use a method, you will have to call that function to perform the defined task.
 
@@ -45,7 +45,7 @@ When a program calls a function, program control is transferred to the called fu
 
 To call a method, you simply need to pass the required parameters along with the method name and if the method returns a value, then you can store the returned value.
 
-####Example
+#### Example
 
 ```
 function max(num1, num2)
@@ -64,11 +64,11 @@ print("The maximum of the two numbers is ",max(10,4))
 print("The maximum of the two numbers is ",max(5,6))
 ```
 
-###Assigning and Passing Functions
+### Assigning and Passing Functions
 
 In Lua, we can assign the function to variables and also can pass them as parameters of another function. Here is a simple example for assigning and passing a function as parameter in Lua.
 
-####Example
+#### Example
 
 ```
 myprint = function(param)
@@ -84,11 +84,11 @@ myprint(10)
 add(2,5,myprint)
 ```
 
-###Function with Variable Argument
+### Function with Variable Argument
 
 It is possible to create functions with variable arguments in Lua using '...' as its parameter. We can get a grasp of this by seeing an example in which the function will return the average and it can take variable arguments.
 
-####Example
+#### Example
 
 ```
 function average(...)

@@ -1,4 +1,4 @@
-##Loops
+## Loops
 
 There may be a situation when you need to execute a block of code several number of times. 
 In general, statements are executed sequentially − the first statement in a function is executed first, followed by the second, and so on.
@@ -12,11 +12,11 @@ Lua provides the following types of loops to handle looping requirements.
 * **[repeat...until loop](#repeat-until-loop)**
 * **[nested loops](#nested-loops)**
 
-###While-Loop
+### While-Loop
 
 Repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body.
 
-####Syntax
+#### Syntax
 ```
 while(condition)
 do
@@ -24,7 +24,7 @@ do
 end
 ```
 
-####Example
+#### Example
 ```
 a=10
 
@@ -41,11 +41,11 @@ value of a:	10
 value of a:	19
 ```
 
-###For-Loop
+### For-Loop
 
 Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.
 
-####Syntax
+#### Syntax
 ```
 for init,max/min value, increment
 do
@@ -61,7 +61,7 @@ end
 
 > The condition is now evaluated again. If it is true, the loop executes and the process repeats itself (body of loop, then increment step, and then again condition). After the condition becomes false, the for loop terminates.
 
-####Example
+#### Example
 ```
 for i=10,1,-1 
 do 
@@ -75,19 +75,19 @@ end
 1
 ```
 
-###Repeat-Until-Loop
+### Repeat-Until-Loop
 
 A `repeat...until loop` is similar to a while loop, except that a do...while loop is guaranteed to execute at least one time.
 Repeats the operation of group of statements till the until condition is met.
 
-####Syntax
+#### Syntax
 ```
 repeat
    statement(s)
 while(condition)
 ```
 
-####Example
+#### Example
 
 ```
 --[ local variable definition --]
@@ -108,11 +108,11 @@ value of a:	14
 value of a:	15
 ```
 
-###Nested-Loops
+### Nested-Loops
 
 You can use one or more loop inside any another while, for or do..while loop.
 
-####Syntax
+#### Syntax
 
 The syntax for a `nested for loop` statement in Lua is as follows −
 
@@ -152,7 +152,7 @@ until( condition )
 A final note on loop nesting is that you can put any type of loop inside of any other type of loop. For example, a `for loop` can be inside a `while loop` or vice versa.
 ```
 
-####Example
+#### Example
 
 ```
 j =2

@@ -1,19 +1,19 @@
-#Hexo
+# Hexo
 Hexo is a fast, simple and powerful blog framework. You write posts in `Markdown` (or other languages) and Hexo generates static files with a beautiful theme in seconds.
 
 If you see some simple themes, see [here](#themes)
 
-##Setup & Installation
+## Setup & Installation
 
-####requirenments
+#### requirenments
 * NodeJS
 * Git
 
-####install hexo
+#### install hexo
 ```
 $ npm install -g hexo-cli
 ```
-####init blog
+#### init blog
 ```
 $ hexo init blog
 $ cd blog
@@ -30,10 +30,10 @@ You can use `tree` command in current folder path.
 └── themes
 ```
 
-#####_config.yml
+##### _config.yml
 See [here](#configuration)
 
-#####package.json
+##### package.json
 Application data.
 ```
 {
@@ -57,16 +57,16 @@ Application data.
 }
 ```
 
-#####scaffolds
+##### scaffolds
 When you create a new post, Hexo bases the new file on the scaffold.
 ```
 $ hexo new photo "My Gallery"
 ```
 
-#####source
+##### source
 Source folder. This is where you put your site’s content. Hexo ignores hidden files and files or folders whose names are prefixed with _ (underscore) - except the _posts folder. Renderable files (e.g. Markdown, HTML) will be processed and put into the public folder, while other files will simply be copied.
 
-#####themes
+##### themes
 such as system automatic `landscape`, and I found some other simple and liked themes:
 * [NexT](https://github.com/iissnan/hexo-theme-next) Contributor by [IIssNan](http://notes.iissnan.com/)
 * [Mirror](https://github.com/LoeiFy/Mirror) Contributor by [LoeiFy](http://mirror.am0200.com/)
@@ -77,9 +77,9 @@ such as system automatic `landscape`, and I found some other simple and liked th
 * [Fexo](https://github.com/forsigner/fexo) Contributor by [forsigner](http://forsigner.com/)
 * [Scribble](https://github.com/muan/scribble) Contributor by [muan](http://muan.co/)
 
-##Configuration
+## Configuration
 
-####Site
+#### Site
 
 ```
 title: Hexo
@@ -89,7 +89,7 @@ author: John Doe
 language:
 timezone:
 ```
-####URL
+#### URL
 
 ```
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -99,7 +99,7 @@ permalink: :year/:month/:day/:title/
 permalink_defaults:
 ```
 
-####Directory
+#### Directory
 
 ```
 source_dir: source
@@ -111,7 +111,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 ```
-####Writing
+#### Writing
 
 ```
 new_post_name: :title.md # File name of new posts
@@ -130,14 +130,14 @@ highlight:
   tab_replace:
 ```
 
-####Category&Tag
+#### Category&Tag
 
 ```
 default_category: uncategorized
 category_map:
 tag_map:
 ```
-####Date/Time format
+#### Date/Time format
 
 ```
 ## Hexo uses Moment.js to parse and display date
@@ -147,7 +147,7 @@ date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ```
 
-####Pagination
+#### Pagination
 
 ```
 ## Set per_page to 0 to disable pagination
@@ -155,14 +155,14 @@ per_page: 10
 pagination_dir: page
 ```
 
-####Extension
+#### Extension
 
 ```
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
 ```
-##Commands
+## Commands
 
 * **init**
 
@@ -225,7 +225,7 @@ Lists all routes.
 $ hexo list
 ```
 
-##Migration
+## Migration
 
 * **RSS**
 

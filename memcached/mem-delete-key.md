@@ -1,4 +1,4 @@
-##Syntax
+## Syntax
 Memcached delete command is used to delete an existing key from the Memcached server.
 
 The basic syntax of Memcached delete command is as shown below
@@ -14,7 +14,7 @@ CAS command may produce one of the following result:
 
 * NOT_FOUND indicates that the key does not exist in the Memcached server.
 
-##Example
+## Example
 In this example, we use tutorialspoint as a key and store memcached in it with an expiration time of 900 seconds. After this, it deletes the stored key.
 
 ```

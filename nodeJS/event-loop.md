@@ -1,4 +1,4 @@
-##Event Loop
+## Event Loop
 
 Node.js is a single-threaded application, but it can support concurrency via the concept of `event` and `callbacks`. Every API of Node.js is asynchronous and being single-threaded, they use `async function calls` to maintain concurrency. Node uses observer pattern. Node thread keeps an event loop and whenever a task gets completed, it fires the corresponding event which signals the event-listener function to execute.
 
@@ -21,5 +21,5 @@ We can fire an event programmatically as follows −
 eventEmitter.emit('eventName');
 ```
 
-####Example
+#### Example
 see [here](event-loop-example.js). Just run `$ node event-loop-example.js`

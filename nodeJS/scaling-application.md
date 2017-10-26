@@ -1,4 +1,4 @@
-##Scaling Application
+## Scaling Application
 
 Node.js runs in a single-thread mode, but it uses an event-driven paradigm to handle concurrency. It also facilitates creation of child processes to leverage parallel processing on multi-core CPU based systems.
 
@@ -8,7 +8,7 @@ Node provides `child_process` module which has the following three major ways to
 * **spawn** − child_process.spawn launches a new process with a given command.
 * **fork** − The child_process.fork method is a special case of the spawn() to create child processes.
 
-###Exec
+### Exec
 
 `child_process.exec` method runs a command in a shell and buffers the output. It has the following signature −
 
@@ -16,7 +16,7 @@ Node provides `child_process` module which has the following three major ways to
 child_process.exec(command[, options], callback)
 ```
 
-####Parameters
+#### Parameters
 
 * **command** (String) The command to run, with space-separated arguments
 * **options** (Object) may comprise one or more of the following options −
@@ -41,7 +41,7 @@ child_process.exec(command[, options], callback)
 
 * **callback** The function gets three arguments `error`, `stdout`, and `stderr` which are called with the output when the process terminates.
 
-####Example
+#### Example
 
 > File: support.js
 
@@ -89,7 +89,7 @@ Child process exited with exit code 0
 stdout: Child Process 2 executed.
 ```
 
-###Spawn
+### Spawn
 
 `child_process.spawn` method launches a new process with a given command. It has the following signature −
 
@@ -97,7 +97,7 @@ stdout: Child Process 2 executed.
 child_process.spawn(command[, args][, options])
 ```
 
-####Parameters
+#### Parameters
 
 * **command** (String) The command to run
 * **args** (Array) List of string arguments
@@ -119,7 +119,7 @@ child_process.spawn(command[, args][, options])
 
 The `spawn()` method returns streams (`stdout` & `stderr`) and it should be used when the process returns a volume amount of data. `spawn()` starts receiving the response as soon as the process starts executing.
 
-####Example
+#### Example
 
 > File: support.js
 
@@ -164,7 +164,7 @@ child process exited with code 0
 child process exited with code 0
 ```
 
-###Fork
+### Fork
 
 `child_process.fork` method is a special case of spawn() to create Node processes. It has the following signature −
 
@@ -172,7 +172,7 @@ child process exited with code 0
 child_process.fork(modulePath[, args][, options])
 ```
 
-####Parameters
+#### Parameters
 
 * **modulePath** (String) The module to run in the child.
 * **args** (Array) List of string arguments
@@ -194,7 +194,7 @@ child_process.fork(modulePath[, args][, options])
 
 The fork method returns an object with a built-in communication channel in addition to having all the methods in a normal ChildProcess instance.
 
-####Example
+#### Example
 
 > File: support.js
 

@@ -1,9 +1,9 @@
-####Syntax
+#### Syntax
 Redis Sets are an unordered collection of unique Strings. Unique means sets doesn't allow repition of data in a key.
 
 In redis set add, remove, and test for existence of members in O(1) (constant time regardless of the number of elements contained inside the Set). Maximum length of a list is 232 - 1 elements (4294967295, more than 4 billion of elements per set).
 
-######example
+###### example
 ```
 redis 127.0.0.1:6379> SADD tutorials redis
 (integer) 1
@@ -20,7 +20,7 @@ redis 127.0.0.1:6379> SMEMBERS tutorials
 3) "redis"
 ```
 
-####Related Commands
+#### Related Commands
 
 * **SADD** key member1 [member2]
 

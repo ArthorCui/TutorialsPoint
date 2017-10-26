@@ -1,4 +1,4 @@
-##Syntax
+## Syntax
 Memcached set command is used to set a value to key; if the key does not exist, a new key is created and value is assigned to that key.
 
 The basic syntax of Memcached set command is as shown below
@@ -21,7 +21,7 @@ The keywords in the syntax are as described below −
 
 * value - It is the data that needs to be stored. The data needs to be given on the new line after executing the command with the above options.
 
-##Example
+## Example
 ```
 set tutorialspoint 0 900 9
 memcached

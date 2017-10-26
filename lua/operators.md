@@ -1,4 +1,4 @@
-##Operators
+## Operators
 
 An operator is a symbol that tells the interpreter to perform specific mathematical or logical manipulations. Lua language is rich in built-in operators and provides the following type of operators −
 
@@ -9,7 +9,7 @@ An operator is a symbol that tells the interpreter to perform specific mathemati
 
 This tutorial will explain the arithmetic, relational, logical, and other miscellaneous operators one by one.
 
-###Arithmetic
+### Arithmetic
 
 > `A = 10, B = 20`
 
@@ -21,7 +21,7 @@ This tutorial will explain the arithmetic, relational, logical, and other miscel
 * `^`	Exponent Operator takes the exponents		`A^2` will give 100
 * `-`	Unary - operator acts as negation			-A will give -10
 
-###Relational
+### Relational
 
 * `==`	Checks two operands are equal or not, if yes then condition becomes true.	
 * `~=`	Checks two operands are equal or not, if values are not equal then condition becomes true.	
@@ -30,7 +30,7 @@ This tutorial will explain the arithmetic, relational, logical, and other miscel
 * `>=`	Checks left operand is greater than or equal to the value of right operand, if yes then condition becomes true.	
 * `<=`	Checks left operand is less than or equal to the value of right operand, if yes then condition becomes true.
 
-####Example
+#### Example
 
 > `(A == B)` is not true.
 > `(A ~= B)` is true.
@@ -40,13 +40,13 @@ This tutorial will explain the arithmetic, relational, logical, and other miscel
 > `(A <= B)` is true.
 
 
-###Logical
+### Logical
 
 * `and` 	Called Logical AND operator. If both the operands are non zero then condition becomes true.
 * `or`		Called Logical OR Operator. If any of the two operands is non zero then condition becomes true.
 * `not`		Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false.
 
-###Misc
+### Misc
 
 Miscellaneous operators supported by Lua Language include `concatenation` and `length`.
 
@@ -58,7 +58,7 @@ Miscellaneous operators supported by Lua Language include `concatenation` and `l
 
 > `#"Hello"` will return 5
 
-###Operators Precedence
+### Operators Precedence
 
 Operator precedence determines the grouping of terms in an expression. This affects how an expression is evaluated. Certain operators have higher precedence than others.
 

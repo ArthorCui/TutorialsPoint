@@ -1,4 +1,4 @@
-##Syntax
+## Syntax
 Memcached incr and decr commands are used to increment or decrement the numeric value of an existing key. 
 If the key is not found, then it returns NOT_FOUND. If the key is not numeric, then it returns CLIENT_ERROR cannot increment or decrement non-numeric value. Otherwise, ERROR is returned.
 
@@ -15,7 +15,7 @@ incr command may produce one of the following result −
 
 * ERROR indicates any other error such as syntax error.
 
-##Example
+## Example
 In this example, we use visitors as key and set 10 initially into it, there after we increment the visitors by 5.
 
 ```

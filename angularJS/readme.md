@@ -1,4 +1,4 @@
-#AngularJS
+# AngularJS
 This open source web application framework and example base on version v1.5.8
 
 > AngularJS is a structural framework for dynamic web apps. 
@@ -6,7 +6,7 @@ This open source web application framework and example base on version v1.5.8
 > Angular's data binding and dependency injection eliminate much of the code you currently have to write. 
 > And it all happens within the browser, making it an ideal partner with any server technology.
 
-###Features
+### Features
 * AngularJS is a powerful JavaScript based development framework to create RICH Internet Application(RIA).
 
 * AngularJS provides developers options to write client side application (using JavaScript) in a clean MVC(Model View Controller) way.
@@ -15,7 +15,7 @@ This open source web application framework and example base on version v1.5.8
 
 * AngularJS is open source, completely free, and used by thousands of developers around the world. It is licensed under the Apache License version 2.0.
 
-###Core Features
+### Core Features
 
 * **Data-binding** 
 
@@ -61,7 +61,7 @@ This open source web application framework and example base on version v1.5.8
 
 > AngularJS has a built-in dependency injection subsystem that helps the developer by making the application easier to develop, understand, and test.
 
-###Example & Applications
+### Example & Applications
 * [Login](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/login/index.html)
 * [Nav bar](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/nav/index.html)
 * [ToDo](http://htmlpreview.github.io/?https://github.com/itabas016/TutorialsPoint/blob/master/angularJS/component/todo/index.html)

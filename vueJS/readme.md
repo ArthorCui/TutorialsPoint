@@ -1,7 +1,7 @@
-#VueJS
+# VueJS
 Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is very easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with [modern tooling](http://vuejs.org/guide/single-file-components.html) and [supporting libraries](https://github.com/vuejs/awesome-vue#libraries--plugins).
 
-###Installation
+### Installation
 
 > * **NPM**
 
@@ -25,18 +25,18 @@ npm run build
 $ bower install vue
 > ```
 
-###Introduction
+### Introduction
 
 At the core of Vue.js is a system that enables us to declaratively render data to the DOM using straightforward template syntax:
 
-######HTML
+###### HTML
 ```
 <div id="app">
   {{ message }}
 </div>
 ```
 
-######JS
+###### JS
 ```
 var app = new Vue({
   el: '#app',

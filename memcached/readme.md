@@ -1,4 +1,4 @@
-##Installing
+## Installing
 
 For example in ubuntu
 ```
@@ -18,7 +18,7 @@ This command is explained below:
 * -u is for user name
 * -d runs memcached as daemon process
 
-####Storage Commands
+#### Storage Commands
 
 * [Set Data](mem-set-data.md)
 * [Add Data](mem-add-data.md)
@@ -26,14 +26,14 @@ This command is explained below:
 * [Append Data](mem-append-data.md)
 * [Prepend Data](mem-prepend-data.md)
 
-####Retrieval Commands
+#### Retrieval Commands
 
 * [Get Data](mem-get-data.md)
 * [Get CAS Data](mem-get-cas-data.md)
 * [Delete Key](mem-delete-key.md)
 * [Incr/Decr Key](mem-incr-desr-key.md)
 
-####Statistics Commands
+#### Statistics Commands
 
 * [Stats](mem-stats.md)
 * [Stats Items](mem-stats.md#Items)

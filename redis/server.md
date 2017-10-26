@@ -1,8 +1,8 @@
-####Syntax
+#### Syntax
 
 Server infomation example:
 
-######example
+###### example
 ```
 redis 127.0.0.1:6379> INFO
 
@@ -44,7 +44,7 @@ db1:keys=1,expires=0,avg_ttl=0
 db3:keys=1,expires=0,avg_ttl=0
 ```
 
-####Related Commands
+#### Related Commands
 
 * **BGREWRITEAOF**
 

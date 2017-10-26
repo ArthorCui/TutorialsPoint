@@ -1,4 +1,4 @@
-####Syntax
+#### Syntax
 Redis strings commands are used for managing string values in redis. Syntax for using redis string commands is shown below:
 ```
 redis 127.0.0.1:6379> COMMAND KEY_NAME
@@ -8,7 +8,7 @@ redis 127.0.0.1:6379> GET tutorialspoint
 "redis"
 ```
 
-####Related Commands
+#### Related Commands
 * **SET** key value
 
 > This command sets the value at the specified key

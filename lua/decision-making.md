@@ -1,4 +1,4 @@
-##Decision Making
+## Decision Making
 
 Decision making structures require that the programmer specifies one or more conditions to be evaluated or tested by the program, along with a statement or statements to be executed, if the condition is determined to be true, and optionally, other statements to be executed if the condition is determined to be false.
 
@@ -8,9 +8,9 @@ Lua programming language assumes any combination of Boolean `true` and `non-nil`
 * **[if...else statement](if-else)**	An if statement can be followed by an optional else statement, which executes when the boolean expression is false.
 * **[nested if statements](mix)**	You can use one if or else if statement inside another if or else if statement(s).
 
-###IF
+### IF
 
-####Syntax
+#### Syntax
 
 ```
 if(boolean_expression)
@@ -19,7 +19,7 @@ then
 end
 ```
 
-####Example
+#### Example
 
 ```
 --[ local variable definition --]
@@ -40,9 +40,9 @@ a is less than 20
 value of a is : 10
 ```
 
-###IF-ELSE
+### IF-ELSE
 
-####Syntax
+#### Syntax
 
 ```
 if(boolean_expression)
@@ -53,7 +53,7 @@ else
 end
 ```
 
-####Example
+#### Example
 
 ```
 --[ local variable definition --]
@@ -77,9 +77,9 @@ a is not less than 20
 value of a is :	100
 ```
 
-###IF-ELSEIF-ELSE
+### IF-ELSEIF-ELSE
 
-####Syntax
+#### Syntax
 
 ```
 if(boolean_expression 1)
@@ -96,7 +96,7 @@ else
 end
 ```
 
-####Example
+#### Example
 
 ```
 --[ local variable definition --]
@@ -127,9 +127,9 @@ None of the values is matching
 Exact value of a is:	100
 ```
 
-###Mix
+### Mix
 
-####Syntax
+#### Syntax
 
 The syntax for a nested if statement is as follows −
 
@@ -144,7 +144,7 @@ then
 end
 ```
 
-####Example
+#### Example
 
 ```
 --[ local variable definition --]
